@@ -1,3 +1,11 @@
-# Diabetic patient detection
+# Hand gesture recognition
 
-This project will predict if a person is diabetic or not from his/her retinal images.
+There will be 5 major steps I will be following to implement this project - 
+
+    1. Generate and Prepare the Data
+    2. Generate Features
+    3. Generate ML Model
+    4. Test the ML Model
+    5. Predict with ML Model
+    
+Technologies I intend to use : Python, OpenCV
