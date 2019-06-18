@@ -1,7 +1,6 @@
 # Hand gesture recognition
 
-Pre-requisites:
-Familiarity with - 
+Pre-required knowledge:  
 1. Python
 2. NumPy 
 3. OpenCV
