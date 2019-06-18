@@ -1,11 +1,15 @@
 # Hand gesture recognition
 
-There will be 5 major steps I will be following to implement this project - 
+Pre-requisites:
+1. Python
+2. NumPy 
+3. OpenCV
 
-    1. Generate and Prepare the Data
-    2. Generate Features
-    3. Generate ML Model
-    4. Test the ML Model
-    5. Predict with ML Model
+5 major steps to be followed to implement this project - 
+
+    1. Segmenting the hand region from a video clip
+    2. Background subtraction
+    3. Motion detection and tresholding
+    4. Contour Extraction
+    5. Applying some computations on the hand to count fingers
     
-Technologies I intend to use : Python, OpenCV
