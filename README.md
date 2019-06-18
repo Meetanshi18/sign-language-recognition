@@ -4,6 +4,7 @@ Pre-requisites:
 1. Python
 2. NumPy 
 3. OpenCV
+4. Operations with images such as Thresholding and Segmentation
 
 5 major steps to be followed to implement this project - 
 
