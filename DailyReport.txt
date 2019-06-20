@@ -1,6 +1,11 @@
-Learnt the functionality of different layers in a Convolutional Neural Network:
-    1. Convolutional Layer
-    2. Relu Layer
-    3. Max Pooling Layer
-    4. Output Layer
+Learnt the functionalities of different layers in a Convolutional Neural Network :
+    
+    1. Convolutional Layer - Matches parts of an image with known image
+    2. Relu Layer - Applies activation function ( x > 0 ? x : 0 )
+    3. Max Pooling Layer - Finds max from subparts and shrinks the image
+    4. Output Layer - 
+Source : https://bit.ly/2FlyiJC
+
+------------------------------------------------------------------------------------
+
 
