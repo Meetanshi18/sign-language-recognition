@@ -1,0 +1,6 @@
+Learnt the functionality of different layers in a Convolutional Neural Network:
+    1. Convolutional Layer
+    2. Relu Layer
+    3. Max Pooling Layer
+    4. Output Layer
+
