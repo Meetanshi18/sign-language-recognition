@@ -42,4 +42,7 @@ a = np.array([np.reshape(i, (3,2)) for i in a])
 
 a = np.matrix([[1, 2, 3, 4], [5, 6, 7, 8]])
 a = np.reshape(a, -1)
-print(a)
+# print(a)
+
+# np.eye and np.identity as used to make matrices containing 0s and 1s with 1s in diagonals 
+print(np.eye(3,3,0, dtype = int)) 
