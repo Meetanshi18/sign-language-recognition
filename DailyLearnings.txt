@@ -2,7 +2,9 @@ Functionalities of different layers in a Convolutional Neural Network:
     1. Convolutional Layer - Matches parts of an image with known image
     2. Relu Layer - Applies activation function ( x > 0 ? x : 0 )
     3. Max Pooling Layer - Finds max from subparts and shrinks the image
-    4. Output Layer - 
+    4. Flattening Layer -
+    5. Fully Connected Layer -
+    6. Output Layer - 
 Source: https://bit.ly/2FlyiJC
 
 --------------------------------------------
@@ -13,6 +15,10 @@ Source: https://bit.ly/2x7wWNY
 One - Hot Encoding: Labels are interpreted as bit maps and not words
 
 --------------------------------------------
-
+Keras Sequential Model:
+    1. Specifying the input shape
+    2. Optimizing
+    3. Training
+Source: https://keras.io/getting-started/sequential-model-guide/
 
 
