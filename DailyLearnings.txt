@@ -5,11 +5,14 @@ Functionalities of different layers in a Convolutional Neural Network:
     4. Output Layer - 
 Source: https://bit.ly/2FlyiJC
 
-------------------------------------------------------------------------------------
-
-NumPy Module Functionalities:
+--------------------------------------------
+NumPy Module Functionalities
 Source: https://bit.ly/2x7wWNY
 
-------------------------------------------------------------------------------------
+--------------------------------------------
+One - Hot Encoding: Labels are interpreted as bit maps and not words
+
+--------------------------------------------
+
 
 
