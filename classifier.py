@@ -23,4 +23,24 @@ x_train = np.array([np.reshape(i, (28, 28)) for i in x_train])
 
 x_test = np.array(x_test.iloc[:])
 x_test = np.array([np.reshape(i, (28, 28)) for i in x_test])
-print(x_test[0])
+# print(x_test[0])
+
+num_classes = 26
+# print(y_train.shape)
+y_train = np.array(y_train).reshape(-1)
+y_test = np.array(y_test).reshape(-1)
+# print(y_train.shape)
+
+y_train = np.eye(num_classes)[y_train]
+y_test = np.eye(num_classes)[y_test]
+
+print('Training examples:',x_train.shape[0])
+print('Test examples:',x_test.shape[0])
+
+print('X_train shape"',x_train.shape)
+print('y_train shape"',y_train.shape)
+print('X_test shape"',x_test.shape)
+print('y_test shape"',y_test.shape)
+
+x_train = x_train.reshape((27455, 28, 28, 1))
+x_test = x_test.reshape((7172, 28, 28, 1))
