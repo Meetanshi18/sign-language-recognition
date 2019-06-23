@@ -21,4 +21,26 @@ Keras Sequential Model:
     3. Training
 Source: https://keras.io/getting-started/sequential-model-guide/
 
+--------------------------------------------
+Figuring out which ML algorithms are suitable for multi class image classification:
+1. Support Vector Machine (SVM) - Yes
+
+2. Random Forest - Yes
+
+3. Naive Bayes - No 
+    -> Naive Bayes is not good in handling unknown features. 
+    It is calculated based on conditional probability and if a condition never appears before, 
+    then it is just a very general prediction which won’t be very accurate.
+
+    -> NB is a linear classifier. Hence it's discriminative power is poor as compared to non 
+    linear classifiers such as SVM or ANN.
+
+4. Artifical Neural Network (ANN) - Yes
+
+----------------------------------------------
+Generative Model - Makes a model for every class
+Discriminative Model - Learns the hard and soft boundaries between different classes
+
+----------------------------------------------
+
 
