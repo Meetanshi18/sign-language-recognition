@@ -24,6 +24,8 @@ Source: https://keras.io/getting-started/sequential-model-guide/
 --------------------------------------------
 Figuring out which ML algorithms are suitable for multi class image classification:
 1. Support Vector Machine (SVM) - Yes
+    -> Draws hyper planes between extreme cases. Ignores most training examples. Works good for even extreme confusing cases.
+Source: https://www.youtube.com/watch?v=Y6RRHw9uN9o
 
 2. Random Forest - Yes
 
@@ -42,5 +44,13 @@ Generative Model - Makes a model for every class
 Discriminative Model - Learns the hard and soft boundaries between different classes
 
 ----------------------------------------------
+Reading and coverting image into pixel values using OpenCV - ( Still a lot to find out )
+<
+    import cv2
+    img = cv2.imread('1.png')
+    ...
+    ...
+>
 
+----------------------------------------------
 
