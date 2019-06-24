@@ -53,4 +53,12 @@ Reading and coverting image into pixel values using OpenCV - ( Still a lot to fi
 >
 
 ----------------------------------------------
+Visualizing the images using OpenCV
+
+----------------------------------------------
+Working of ML algorithms
+    1. K-Nearest Neighbor
+    2. Support Vector Machine
+
+----------------------------------------------
 
