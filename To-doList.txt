@@ -1,0 +1,5 @@
+1. Analyzing cnn model using tensorboard: https://www.youtube.com/watch?v=BqgTU7_cBnk
+2. Visualizing keras model using tensorboard: 
+3. Capture an image -> make it 28*28px -> run your model on it -> predict the output: All this happens automatically
+4. Random Forest complete the implementation
+5. 
