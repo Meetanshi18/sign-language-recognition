@@ -1,6 +1,6 @@
 Functionalities of different layers in a Convolutional Neural Network:    
     1. Convolutional Layer - Matches parts of an image with known image
-    2. Relu Layer - Applies activation function ( x > 0 ? x : 0 )
+    2. Relu Layer - Applies activation function
     3. Max Pooling Layer - Finds max from subparts and shrinks the image
     4. Flattening Layer -
     5. Fully Connected Layer -
@@ -61,4 +61,29 @@ Working of ML algorithms
     2. Support Vector Machine
 
 ----------------------------------------------
+Attributes of Convolution2D layer:
 
+Weight Matrix:
+    Shows weights for every input-output neuron connection.
+    Rows correspond to input neurons and columns to output neurons
+Bias Vector:
+    A constant that that helps the model in a way that it can best fit the given data.
+    Eg. y = mx + 'c' <--
+Strides:
+    Moving forward more than 1 step at a time while convoluting
+Padding: 
+    Adding sentinal 0s all around the image so that we don't throw away corner information and also image size doesn't shrink.
+
+-----------------------------------------------
+Activation Functions:
+1. Relu: 
+y = x > 0? x : 0
+                /
+               /
+______________/
+
+2. Sigmoid:
+                         _
+                   _ -
+              _  -
+__ _ _ _  --
