@@ -14,18 +14,18 @@ x_test = test.drop(['label'], axis=1)
 x_train = np.array(x_train.iloc[:])
 x_test = np.array(x_test.iloc[:])
 
-print(x_train[:5])
+# print(x_train[:5])
 
 from sklearn.neighbors import KNeighborsClassifier
 clf = KNeighborsClassifier(n_neighbors=5).fit(x_train[:5000], y_train[:5000])
 
 from sklearn.metrics import accuracy_score
-print('accuracy is')
+print('accuracy is: ')
 print(accuracy_score(y_test[:100], clf.predict(x_test[:100])))
 
 accuracy_values = []
 
-for x in range(10,40):
+for x in range(2,6):
 	clf=KNeighborsClassifier(n_neighbors=x).fit(x_train[:5000],y_train[:5000])
 	accuracy=accuracy_score(y_test[:100],clf.predict(x_test[:100]))
 	accuracy_values.append([x,accuracy])
