@@ -18,6 +18,7 @@ import matplotlib.pyplot as plt
 from sklearn import svm
 
 x_train = x_train/255
+x_test = x_test/255
 
 clf = svm.SVC(gamma = 0.0001, C = 100)
 
