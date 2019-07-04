@@ -40,7 +40,7 @@ def plot_k_vs_accuracy():
 
 x_train, y_train, x_test, y_test = getProcessedData(train, test)
 
-clf = KNeighborsClassifier(n_neighbors=5).fit(x_train[:5000], y_train[:5000])
+clf = KNeighborsClassifier(n_neighbors=4).fit(x_train[:5000], y_train[:5000])
 print('accuracy is: ')
 print(accuracy_score(y_test[:100], clf.predict(x_test[:100])))
 
